@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Branches Available in My College</title> 
+</head>
+<body>
+
+    <h1>List of Branches Available in My College</h1>
+
+    <h2>CORE BRANCHES</h2>
+    <ul>
+        <li>computer science</li>
+        <li>electrical engineering</li>
+        <li>mechanical engineering</li>
+        <li>information technology</li>
+    </ul>
+
+    <h2>CS ALLIED BRANCHES</h2>
+    <ul>
+        <li>data science</li>
+        <li>artificial intelligence</li>
+        <li>artificial intelligence and machine learning</li>
+    </ul>
+
+</body>
+</html>
