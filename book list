@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Collection of books</title> 
+</head>
+<body>
+
+    <h1>My Collection of books</h1>
+
+    <h2>books i have</h2>
+    <ul>
+        <li>animal farm</li>
+        <li>1984</li>
+        <li>poor economics</li>
+        <li>the road less traveled</li>
+    </ul>
+
+    <h2>The books i want to purchase</h2>
+    <ul>
+        <li>war and peace </li>
+        <li>pride and prejudice</li>
+        <li>metamorphosis</li>
+        <li>and so on...</li>
+    </ul>
+
+</body>
+</html>
