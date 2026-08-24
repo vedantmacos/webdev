@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .right iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .main {
+            background-color: rgb(162, 188, 221);
+            display: flex;
+            height: 500px;
+            font-weight: bold;
+
+        }
+
+        .left {
+            width: 200px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right {
+            flex: 1;
+            border: 1px solid black;
+            flex-direction: column;
+            display: flex;
+            padding: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: rgb(89, 0, 255);
+            font-weight: bold;
+        }
+
+        .header {
+            background-color: rgb(88, 128, 212);
+            height: 70px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 70px;
+        }
+
+        .title {
+            flex: 1;
+        }
+
+        .menu {
+            background-color: rgb(205, 218, 255);
+            font-size: 20px;
+            height: 40px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online book store</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="C:\Users\user\Desktop\2E1 248\experiment 1\new-logo-glbajaj.webp" align="left">
+        </div>
+        <div class="title">Website name</div>
+    </div>
+    <div class="menu">
+        <a href="home.html">Home</a>
+        <a href="">Login</a>
+        <a href="">Registration</a>
+        <a href="">Catalougue</a>
+        <a href="">Cart</a>
+    </div>
+    <div class="main">
+        <div class="left">
+            <a href="CIVIL.html" target="content">CIVIL</a>
+            <a href="CSE.html" target="content">CSE</a>
+            <a href="ECE.html" target="content">ECE</a>
+            <a href="EEE.html" target="content">EEE</a>
+        </div>
+        <div class="right">
+            <iframe src="home.html" name="content"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
